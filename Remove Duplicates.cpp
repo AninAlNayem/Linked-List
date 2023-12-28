@@ -59,8 +59,8 @@ node removeDuplicate(node head){
     while(current!=NULL){
 
         if(seen[current->data]==1){
-            previous->next=current->next;
-            delete current;
+            previous->next=current->next;  /// suppose a,b,c after executing this line a will connect c.
+            delete current; /// deleting the node.
             current=previous->next;
         }
         else{
