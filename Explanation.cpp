@@ -6,7 +6,7 @@ Suppose you have a linked list like this:
   |
   p
 
-  Here, each node contains some data (A, B, C) and a pointer (next) to the next node in the sequence.
+Here, each node contains some data (A, B, C) and a pointer (next) to the next node in the sequence.
 
 p = p->next;:
 
