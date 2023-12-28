@@ -57,7 +57,7 @@ int main(){
     node p=head;
     bool res=true;
     while(p!=NULL && p->next!=NULL){
-        if(p->data > p->next->data){
+        if(p->data  >  p->next->data){
             res=false;
             break;
         }
